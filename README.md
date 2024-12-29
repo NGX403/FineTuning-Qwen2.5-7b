@@ -13,9 +13,6 @@ pip install -e ".[torch,metrics]"
 
 下载[Qwen2.5-7b-Instruct](https://www.modelscope.cn/models/qwen/Qwen2.5-7B-Instruct "访问魔塔社区")，将下载好的模型放到LLaMa-Factory目录下，同时将本项目的所有文件也放到LLaMa-Factory目录下
 
-### 文件目录结构
-
-![image-20241229182935918](C:\Users\86188\AppData\Roaming\Typora\typora-user-images\image-20241229182935918.png)
 
 ### 模型训练
 
