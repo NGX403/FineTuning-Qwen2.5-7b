@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: Qwen2.5-7B-Instruct
+adapter_name_or_path: /data/coding/LLaMA-Factory/qwen2.5-7b-fine_tuning/lora/sft
+template: qwen
+finetuning_type: lora
+
+### export
+export_dir: models/qwen2.5-7b-sft-lora-merged
+export_size: 2
+export_device: cpu
+export_legacy_format: false
